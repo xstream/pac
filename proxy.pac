@@ -1,7 +1,8 @@
 function FindProxyForURL(url, host) {
     const youtubeDomains = [
         "youtube.com", ".youtube.com", ".ytimg.com", ".googlevideo.com",
-        "chatgpt.com",
+        "chatgpt.com", ".chatgpt.com",
+        "jigsaw24.com", ".jigsaw24.com",
     ];
 
     for (let domain of youtubeDomains) {
